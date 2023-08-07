@@ -1,0 +1,51 @@
+.TopNavContainer{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    position: fixed;
+    width: 100%;
+    padding: 20px 0px;
+}
+.TopNavLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TopNavButton button{
+    background-color: #DF6951;
+    color: white;
+    border-radius: 4px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+.TopNavMenu{
+    display: grid;
+    grid-template-columns: 22.5% 22.5% 25% 30%;
+    color: white;
+}
+.TopNavMenu li{
+    list-style: none;
+}
+
+.TopNavMenu li:active{
+    list-style: none;
+    border-bottom-color: #DF6951;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+}
+.TopNavMenu li:hover{
+    list-style: none;
+    border-bottom-color: #DF6951;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+}
+.TopNavMenu li:focus{
+    list-style: none;
+    border-bottom-color: #DF6951;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+}

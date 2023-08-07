@@ -1,0 +1,16 @@
+.PartnerShip{
+    background-color: #F7F7F7;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    height: 100px;
+}
+.PartnerShip div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PartnerShip div img{
+    width: 200px;
+    height: 40px;
+}

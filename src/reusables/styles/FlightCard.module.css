@@ -1,0 +1,13 @@
+.FlightCardContainer {
+  width: 75%;
+}
+
+.FlightCardtopic {
+  font-weight: 700;
+}
+
+.boxShadow {
+  box-shadow: 5px 5px 5px rgba(75, 75, 75, 0.1);
+  border-radius: 30px;
+  padding: 0px 10px 10px 10px;
+}
