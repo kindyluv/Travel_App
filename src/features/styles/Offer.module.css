@@ -1,6 +1,6 @@
 .offerContainer{
     background-color: white;
-    padding: 20px 40px;
+    padding: 3% 40px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -10,6 +10,7 @@
 
 .offerPTagOne{
     color: #DF6951;
+    font-weight: 700;
 }
 .offerPTagTwo{
     color: #000;
@@ -17,9 +18,16 @@
     font-weight: 700;
 }
 .OfferDiv{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    display: flex;
     padding: 30px 10px;
-    width: 70%;
+    width: 75%;
     column-gap: 5%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.offerContent{
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+
 }

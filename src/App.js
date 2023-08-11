@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import LandingPage from './features';
+import Homepage from './features/HomePage';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Routes>
           <Route path='/' element={<LandingPage />} />
           <Route path='/LandingPage' element={<LandingPage />} />
+          <Route path='/Homepage' element={<Homepage />} />
         </Routes>
       </Router>
     </div>

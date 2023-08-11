@@ -1,5 +1,17 @@
+/* FlightCard.module.css */
+
+.flightCardTwoMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
 .FlightCardContainer {
-  width: 75%;
+  z-index: 99999;
+  border-radius: 30px;
+  padding: 0px 10px 10px 10px;
+  position: relative;
+  background-color: white;
 }
 
 .FlightCardtopic {
@@ -8,6 +20,15 @@
 
 .boxShadow {
   box-shadow: 5px 5px 5px rgba(75, 75, 75, 0.1);
-  border-radius: 30px;
-  padding: 0px 10px 10px 10px;
+}
+
+.flightCardSmCard {
+  background-color: #df6951;
+  border-radius: 16px;
+  height: 70px;
+  width: 70px;
+  margin-top: -50px;
+  margin-left: -150px;
+  position: relative;
+  transform: translateX(-50%);
 }

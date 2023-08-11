@@ -1,0 +1,111 @@
+.FooterMain{
+    display: grid;
+    grid-template-rows: 90% 10%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    background-image: url('../../assets/FooterImage.svg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.FooterDivOne{
+    display: grid;
+    grid-template-columns: 25% 20% 20% 35%;
+    padding: 3% 0%;
+}
+.TravelFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.FooterImgOne{
+
+}
+.TravelFooter p{
+    text-align: left;
+    color: #757095;
+    font-weight: 500;
+}
+.TravelFooter div{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 70%;
+    margin-top: 20px;
+}
+.FooterImgOne{
+    
+}
+.FooterUlOne, .FooterUlTwo{
+    text-align: left;
+    list-style: none;
+}
+.FooterNews{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+.listTop, .FooterNewsP1{
+    color: #181433;
+    font-family: Manrope;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+}
+.listBody{
+    color: #181433;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+}
+.FooterNewsIC{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 100%;
+}
+.FooterNewsIC input{
+    background-color: #EEEEFF;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.FooterNewsIC button{
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #DF6951;
+    box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+    color: white;
+}
+.FooterNewsIC input:active, .FooterNewsIC input:focus, .FooterNewsIC input:hover, .FooterNewsIC button:active, .FooterNewsIC button:focus{
+    border: none;
+    outline: none;
+}
+.FooterDivTwo{
+
+}
+
+.FooterDivTwo p{
+    margin-top: 50px;
+    color: #181433;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 26px;
+    letter-spacing: -0.32px;
+}
+.hr{
+    background-color: #E5E5EA;
+    height: 2px;
+    border: none;
+}

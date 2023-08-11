@@ -4,6 +4,8 @@
     background-size: cover;
     height: inherit;
     width: inherit;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .HeroDiv{
@@ -13,55 +15,62 @@
     justify-content: center;
     flex-direction: column;
     text-align: left;
-    width: 45%;
+    width: 100%;
     height: 100%;
     padding-top: 200px;
-    padding-left: 150px;
+    padding-left: 190px;
 }
 .HeroImgOne{
     width: 80px;
 }
 .HeroPtag{
-    font-size: 60px;
+    font-size: 58px;
     color: white;
     font-weight: 700;
     margin-top: -5px;
+    width: 70%;
 }
 .HeroDivInnerOne{
-    background-color: #f3f3f39d;
-    width: 100%;
-    /* height: 30%; */
+    background-color: #f3f3f3a5;
+    width: 90%;
     border-radius: 4px;
     color: white;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 24% 2% 24% 2% 24% 24%;
     justify-content: center;
     align-items: center;
-    column-gap: 3%;
+    column-gap: 1%;
     font-size: 16px;
     font-weight: 600;
     padding: 0px 10px;
     text-align: center;
 }
-.HeroDivInnerOne p{
-    border-right-color: white;
-    border-right-width: 2px;
-    border-right-style: solid;
-}
+.hrStyle{
+    border-left: 2px solid #f3f3f39d;
+    height: 50%;
+  }
+
 .HeroDivInnerTwo{
     height: 100%;
 }
+#travelType, #duration{
+    width: 70%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
 #duration{
-    border-left-color: white;
-    border-left-width: 2px;
-    border-left-style: solid;
     padding-left: 10px;
+}
+#duration:focus, #duration:active, #travelType:focus, #travelType:active{
+    outline: none;
+    border: none;
 }
 .buttonSearch {
     background-color: #df6951;
     border: 1px none;
     height: 46.42px;
-    width: 100px;
+    width: 80%;
     border-radius: 8px;
     color: var(--white);
     font-size: 16.7px;
@@ -89,3 +98,216 @@
     align-items: center;
     flex-direction: row;
 }
+
+.clients,
+.slogans {
+  /* position: relative; */
+  left: 0;
+}
+.clients {
+  top: 403px;
+  width: 800px;
+  height: 39.54px;
+  text-align: left;
+  font-size: 12.54px;
+  color: var(--white);
+  font-family: var(--font-poppins);
+  display: grid;
+  grid-template-columns: 27% 73%;
+}
+
+.peopleBookedTommorowland {
+    margin: 0;
+    /* position: absolute; */
+    top: 1.54px;
+    left: 400px;
+    line-height: 37.61px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+  }
+  .ellipseParent {
+    position: relative;
+    top: 0.25px;
+    left: 0;
+    width: 181.79px;
+    height: 36px;
+  }
+  .groupChild5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild6,
+  .groupChild7,
+  .groupChild8,
+  .groupChild9 {
+    position: absolute;
+    top: 0;
+    left: 24.3px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild7,
+  .groupChild8,
+  .groupChild9 {
+    left: 48.6px;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild8,
+  .groupChild9 {
+    left: 72.89px;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild9 {
+    left: 97.19px;
+  }
+  .groupChild10,
+  .groupChild11 {
+    left: 121.49px;
+  }
+  .groupChild11 {
+    left: 145.79px;
+  }
+
+  .div44 {
+    background-color: #df6951;
+    width: 36px;
+    height: 36px;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 0;
+    left: 160px;
+    line-height: 37.61px;
+    font-weight: 500;
+  }
+
+  /* here */
+  .slogans {
+    margin: 0;
+    top: 29px;
+    line-height: 67.91px;
+    font-weight: 700;
+    display: inline-block;
+    width: 631px;
+    height: 272px;
+    color: white;
+  }
+  .searcgingToolsChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5.22px;
+    background-color: rgba(243, 243, 243, 0.6);
+    backdrop-filter: blur(35.52px);
+    width: 844px;
+    height: 102px;
+  }
+  .submit {
+    position: absolute;
+    top: calc(50% - 12.21px);
+    left: calc(50% - 31.28px);
+    font-size: 16.72px;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: center;
+  }
+  .buttonSearch1 {
+    color: var(--white);
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-salmon);
+    /* position: absolute; */
+    top: 23px;
+    left: 629px;
+    border-radius: var(--br-3xs);
+    box-shadow: 0 20px 35px rgba(223, 105, 81, 0.15);
+    width: 176.56px;
+    height: 56.42px;
+  }
+  .whereTo {
+    border: 0;
+    font-family: var(--font-poppins);
+    font-size: 18.81px;
+    background-color: transparent;
+    /* position: absolute; */
+    top: 39px;
+    left: 22px;
+    color: var(--white);
+    text-align: left;
+  }
+  .akarIconschevronDown {
+    /* position: absolute; */
+    top: 39px;
+    left: 374px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .searcgingTools {
+    /* position: absolute; */
+    top: 273px;
+    left: 11px;
+    width: 844px;
+    height: 102px;
+  }
+  .contextChild,
+  .groupSelect,
+  .groupSelect1 {
+    /* position: absolute; */
+    top: 312px;
+    left: 234px;
+    width: 140px;
+    height: 28px;
+  }
+  .contextChild,
+  .groupSelect1 {
+    left: 473px;
+    width: 112px;
+  }
+  .contextChild {
+    top: -0.03px;
+    left: -2.34px;
+    border-radius: 2.09px;
+    width: 83.03px;
+    height: 16.87px;
+  }
+  .context2,
+  .context3 {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 855px;
+    height: 375px;
+  }
+  .context2 {
+    top: 298px;
+    left: 320px;
+    height: 442.54px;
+    text-align: left;
+    font-size: 58.51px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+  }

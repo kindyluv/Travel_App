@@ -1,0 +1,24 @@
+.BookingsCardMain{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    column-gap: 2%;
+}
+
+.BookingsCardImg{
+    justify-self: center;
+    align-self: center;
+    display: flex;
+}
+
+.BookingsCarddiv{
+    text-align: left;
+    width: 60%;
+}
+
+.BookingsCardtopic{
+    font-weight: 700;
+}
+
+.BookingsCardbody{
+    font-weight: 400;
+}
