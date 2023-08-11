@@ -2,8 +2,11 @@ import React, { useState } from 'react';
 import Styles from './styles/TopNav.module.css';
 import ArrowDown from '../assets/ArrowDown.svg';
 import Logo from '../assets/TravelLogo.svg';
+import { useMediaQuery, useTheme } from '@mui/material';
 
 const TopNav = () => {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
   const [showDropdown, setShowDropdown] = useState(false);
   const [isServicesClicked, setServicesClicked] = useState(false);
   const [hoverHome, setHoverHome] = useState(true);
