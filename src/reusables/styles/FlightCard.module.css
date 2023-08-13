@@ -1,6 +1,4 @@
-/* FlightCard.module.css */
-
-.flightCardTwoMain {
+/* .flightCardTwoMain {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,4 +29,140 @@
   margin-left: -150px;
   position: relative;
   transform: translateX(-50%);
+} */
+
+@media screen and (min-device-width: 481px) and (max-width: 768px){
+  .flightCardTwoMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .FlightCardContainer {
+    z-index: 99999;
+    border-radius: 30px;
+    padding: 0px 10px 10px 10px;
+    position: relative;
+    background-color: white;
+    width: 70%;
+  }
+  
+  .FlightCardtopic {
+    font-weight: 700;
+  }
+  .FlightCardbody{
+    font-size: 13px;
+  }
+  .boxShadow {
+    box-shadow: 5px 5px 5px rgba(75, 75, 75, 0.1);
+  }
+  
+  .flightCardSmCard {
+    background-color: #df6951;
+    border-radius: 16px;
+    height: 70px;
+    width: 70px;
+    margin-top: -50px;
+    margin-left: -100px;
+    position: relative;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (min-device-width: 769px) and (max-width: 991px){
+  .flightCardTwoMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .FlightCardContainer {
+    z-index: 99999;
+    border-radius: 30px;
+    padding: 0px 10px 10px 10px;
+    position: relative;
+    background-color: white;
+  }
+  
+  .FlightCardtopic {
+    font-weight: 700;
+  }
+  
+  .boxShadow {
+    box-shadow: 5px 5px 5px rgba(75, 75, 75, 0.1);
+  }
+  
+  .flightCardSmCard {
+    background-color: #df6951;
+    border-radius: 16px;
+    height: 50px;
+    width: 50px;
+    margin-top: -35px;
+    margin-left: -100px;
+    position: relative;
+    transform: translateX(-50%);
+  } 
+}
+
+@media screen and (min-device-width: 992px) and (max-width: 1200px) {
+  .flightCardTwoMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .FlightCardContainer {
+    z-index: 99999;
+    border-radius: 30px;
+    padding: 0px 10px 10px 10px;
+    position: relative;
+    background-color: white;
+  }
+  .FlightCardtopic {
+    font-weight: 700;
+  }
+  .boxShadow {
+    box-shadow: 5px 5px 5px rgba(75, 75, 75, 0.1);
+  }
+  .flightCardSmCard {
+    background-color: #df6951;
+    border-radius: 16px;
+    height: 50px;
+    width: 50px;
+    margin-top: -35px;
+    margin-left: -130px;
+    position: relative;
+    transform: translateX(-50%);
+  } 
+}
+@media screen and (min-device-width: 1201px) {
+  .flightCardTwoMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .FlightCardContainer {
+    z-index: 99999;
+    border-radius: 30px;
+    padding: 0px 10px 10px 10px;
+    position: relative;
+    background-color: white;
+  }
+  .FlightCardtopic {
+    font-weight: 700;
+  }
+  .boxShadow {
+    box-shadow: 5px 5px 5px rgba(75, 75, 75, 0.1);
+  }
+  .flightCardSmCard {
+    background-color: #df6951;
+    border-radius: 16px;
+    height: 100px;
+    width: 100px;
+    margin-top: -65px;
+    margin-left: -120px;
+    position: relative;
+    transform: translateX(-50%);
+  } 
 }
