@@ -1,38 +1,694 @@
-.HeroContainer{
+@media screen and (max-device-width: 480px) {
+  .HeroContainer {
+    background-image: url('../../assets/HeroImage.svg');
+    background-repeat: no-repeat;
+    background-size: inherit;
+    width: inherit;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .HeroDiv {
+    display: grid;
+    grid-template-rows: 35% 40% 25%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    width: 100%;
+    row-gap: 4%;
+  }
+  .HeroImgOne {
+    width: 80px;
+    align-self: baseline;
+    margin-left: 20px;
+  }
+  .HeroPtag {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    margin-top: -5px;
+    width: 90%;
+  }
+  .Twistcontainer {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .HeroDivInnerOne {
+    background-color: #f3f3f3a5;
+    width: 80%;
+    border-radius: 4px;
+    color: white;
+    display: grid;
+    grid-template-columns: 24% 2% 24% 2% 24% 24%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1%;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 0px 10px;
+    text-align: center;
+    justify-self: center;
+    height: 65%;
+  }
+  .hrStyle {
+    border-left: 2px solid #f3f3f39d;
+    height: 50%;
+  }
+
+  .HeroDivInnerTwo {
+    height: 100%;
+  }
+  #travelType,
+  #duration {
+    width: 70%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  #duration {
+    padding-left: 10px;
+  }
+  #duration:focus,
+  #duration:active,
+  #travelType:focus,
+  #travelType:active {
+    outline: none;
+    border: none;
+  }
+  .buttonSearch {
+    background-color: #df6951;
+    border: 1px none;
+    height: 30px;
+    width: 80%;
+    border-radius: 8px;
+    color: var(--white);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+  }
+  .HeroDivInnerOne select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .HeroDivInnerTwo span {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding-left: 10px;
+  }
+  .HeroDivInnerTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .clients,
+  .slogans {
+    left: 0;
+  }
+  .clients {
+    top: 403px;
+    width: 85%;
+    height: 39.54px;
+    text-align: left;
+    font-size: 12.54px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+    display: grid;
+    grid-template-columns: 35% 65%;
+    column-gap: 2%;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+  }
+
+  .peopleBookedTommorowland {
+    left: 500px;
+    line-height: 37.61px;
+    font-weight: 700;
+    font-size: 8px;
+    color: white;
+    text-align: right;
+    padding-left: 20px;
+  }
+  .ellipseParent {
+    position: relative;
+    top: 0.25px;
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+  }
+  .groupChild5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    object-fit: cover;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild6,
+  .groupChild7,
+  .groupChild8,
+  .groupChild9 {
+    position: absolute;
+    top: 0;
+    left: 14.3px;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    object-fit: cover;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild7,
+  .groupChild8,
+  .groupChild9 {
+    left: 28.6px;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild8,
+  .groupChild9 {
+    left: 42.89px;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild9 {
+    left: 57.19px;
+  }
+  .groupChild10,
+  .groupChild11 {
+    left: 70.49px;
+  }
+  .groupChild11 {
+    left: 85.79px;
+  }
+
+  .div44 {
+    background-color: #df6951;
+    width: 26px;
+    height: 26px;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 0;
+    left: 95px;
+    line-height: 37.61px;
+    font-weight: 500;
+  }
+  .slogans {
+    margin: 0;
+    top: 29px;
+    line-height: 67.91px;
+    font-weight: 700;
+    display: inline-block;
+    width: 631px;
+    height: 272px;
+    color: white;
+  }
+  .searcgingToolsChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5.22px;
+    background-color: rgba(243, 243, 243, 0.6);
+    backdrop-filter: blur(35.52px);
+    width: 844px;
+    height: 102px;
+  }
+  .submit {
+    position: absolute;
+    top: calc(50% - 12.21px);
+    left: calc(50% - 31.28px);
+    font-size: 16.72px;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: center;
+  }
+  .buttonSearch1 {
+    color: var(--white);
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-salmon);
+    top: 23px;
+    left: 629px;
+    border-radius: var(--br-3xs);
+    box-shadow: 0 20px 35px rgba(223, 105, 81, 0.15);
+    width: 176.56px;
+    height: 56.42px;
+  }
+  .whereTo {
+    border: 0;
+    font-family: var(--font-poppins);
+    font-size: 18.81px;
+    background-color: transparent;
+    top: 39px;
+    left: 22px;
+    color: var(--white);
+    text-align: left;
+  }
+  .akarIconschevronDown {
+    top: 39px;
+    left: 374px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .searcgingTools {
+    top: 273px;
+    left: 11px;
+    width: 844px;
+    height: 102px;
+  }
+  .contextChild,
+  .groupSelect,
+  .groupSelect1 {
+    top: 312px;
+    left: 234px;
+    width: 140px;
+    height: 28px;
+  }
+  .contextChild,
+  .groupSelect1 {
+    left: 473px;
+    width: 112px;
+  }
+  .contextChild {
+    top: -0.03px;
+    left: -2.34px;
+    border-radius: 2.09px;
+    width: 83.03px;
+    height: 16.87px;
+  }
+  .context2,
+  .context3 {
+    top: 0;
+    left: 0;
+    width: 855px;
+    height: 375px;
+  }
+  .context2 {
+    top: 298px;
+    left: 320px;
+    height: 442.54px;
+    text-align: left;
+    font-size: 58.51px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+  }
+}
+@media screen and (min-device-width: 481px) and (max-width: 768px) {
+  .HeroContainer {
     background-image: url('../../assets/HeroImage.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: inherit;
+    height: 390px;
+    width: inherit;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .HeroDiv {
+    display: grid;
+    grid-template-rows: 20% 45% 5%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    height: 180px;
+    margin-top: 140px;
+  }
+  .HeroImgOne {
+    width: 80px;
+  }
+  .HeroPtag {
+    font-size: 23px;
+    color: white;
+    font-weight: 700;
+    margin-top: -5px;
+    width: 80%;
+  }
+  .Twistcontainer {
+    padding-left: 100px;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+  }
+  .HeroDivInnerOne {
+    background-color: #f3f3f3a5;
+    width: 70%;
+    border-radius: 4px;
+    color: white;
+    display: grid;
+    grid-template-columns: 24% 2% 24% 2% 24% 24%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1%;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0px 10px;
+    text-align: center;
+    justify-self: center;
+    height: 70%;
+  }
+  .hrStyle {
+    border-left: 2px solid #f3f3f39d;
+    height: 50%;
+  }
+
+  .HeroDivInnerTwo {
+    height: 100%;
+  }
+  #travelType,
+  #duration {
+    width: 70%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  #duration {
+    padding-left: 10px;
+  }
+  #duration:focus,
+  #duration:active,
+  #travelType:focus,
+  #travelType:active {
+    outline: none;
+    border: none;
+  }
+  .buttonSearch {
+    background-color: #df6951;
+    border: 1px none;
+    height: 46.42px;
+    width: 80%;
+    border-radius: 8px;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+  }
+  .HeroDivInnerOne select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .HeroDivInnerTwo span {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding-left: 10px;
+  }
+  .HeroDivInnerTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .clients,
+  .slogans {
+    left: 0;
+  }
+  .clients {
+    top: 403px;
+    width: 80%;
+    height: 39.54px;
+    text-align: left;
+    font-size: 12.54px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+    display: grid;
+    grid-template-columns: 30% 70%;
+    column-gap: 2%;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .peopleBookedTommorowland {
+    top: 1.54px;
+    left: 500px;
+    line-height: 37.61px;
+    font-weight: 700;
+    font-size: 10px;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .ellipseParent {
+    position: relative;
+    top: 0.25px;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+  }
+  .groupChild5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    object-fit: cover;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild6,
+  .groupChild7,
+  .groupChild8,
+  .groupChild9 {
+    position: absolute;
+    top: 0;
+    left: 14.3px;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    object-fit: cover;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild7,
+  .groupChild8,
+  .groupChild9 {
+    left: 28.6px;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild8,
+  .groupChild9 {
+    left: 42.89px;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild9 {
+    left: 57.19px;
+  }
+  .groupChild10,
+  .groupChild11 {
+    left: 70.49px;
+  }
+  .groupChild11 {
+    left: 85.79px;
+  }
+
+  .div44 {
+    background-color: #df6951;
+    width: 26px;
+    height: 26px;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 0;
+    left: 95px;
+    line-height: 37.61px;
+    font-weight: 500;
+  }
+  .slogans {
+    margin: 0;
+    top: 29px;
+    line-height: 67.91px;
+    font-weight: 700;
+    display: inline-block;
+    width: 631px;
+    height: 272px;
+    color: white;
+  }
+  .searcgingToolsChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5.22px;
+    background-color: rgba(243, 243, 243, 0.6);
+    backdrop-filter: blur(35.52px);
+    width: 844px;
+    height: 102px;
+  }
+  .submit {
+    position: absolute;
+    top: calc(50% - 12.21px);
+    left: calc(50% - 31.28px);
+    font-size: 16.72px;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: center;
+  }
+  .buttonSearch1 {
+    color: var(--white);
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-salmon);
+    top: 23px;
+    left: 629px;
+    border-radius: var(--br-3xs);
+    box-shadow: 0 20px 35px rgba(223, 105, 81, 0.15);
+    width: 176.56px;
+    height: 56.42px;
+  }
+  .whereTo {
+    border: 0;
+    font-family: var(--font-poppins);
+    font-size: 18.81px;
+    background-color: transparent;
+    top: 39px;
+    left: 22px;
+    color: var(--white);
+    text-align: left;
+  }
+  .akarIconschevronDown {
+    top: 39px;
+    left: 374px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .searcgingTools {
+    top: 273px;
+    left: 11px;
+    width: 844px;
+    height: 102px;
+  }
+  .contextChild,
+  .groupSelect,
+  .groupSelect1 {
+    top: 312px;
+    left: 234px;
+    width: 140px;
+    height: 28px;
+  }
+  .contextChild,
+  .groupSelect1 {
+    left: 473px;
+    width: 112px;
+  }
+  .contextChild {
+    top: -0.03px;
+    left: -2.34px;
+    border-radius: 2.09px;
+    width: 83.03px;
+    height: 16.87px;
+  }
+  .context2,
+  .context3 {
+    top: 0;
+    left: 0;
+    width: 855px;
+    height: 375px;
+  }
+  .context2 {
+    top: 298px;
+    left: 320px;
+    height: 442.54px;
+    text-align: left;
+    font-size: 58.51px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+  }
+}
+
+@media screen and (min-device-width: 769px) and (max-width: 991px) {
+  .HeroContainer {
+    background-image: url('../../assets/HeroImage.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
     width: inherit;
     display: grid;
     grid-template-columns: 50% 50%;
-}
+    padding-bottom: 250px;
+  }
 
-.HeroDiv{
+  .HeroDiv {
     display: grid;
-    grid-template-rows: 40% 10% 5%;
+    grid-template-rows: 40% 15% 20%;
     row-gap: 3%;
     justify-content: center;
     flex-direction: column;
     text-align: left;
     width: 100%;
     height: 100%;
-    padding-top: 200px;
-    padding-left: 190px;
-}
-.HeroImgOne{
+    padding-top: 150px;
+    padding-left: 220px;
+  }
+  .HeroImgOne {
     width: 80px;
-}
-.HeroPtag{
-    font-size: 58px;
+  }
+  .HeroPtag {
+    font-size: 45px;
     color: white;
     font-weight: 700;
     margin-top: -5px;
     width: 70%;
-}
-.HeroDivInnerOne{
+  }
+  .Twistcontainer {
+    height: 4px;
+  }
+  .HeroDivInnerOne {
     background-color: #f3f3f3a5;
-    width: 90%;
+    width: 80%;
     border-radius: 4px;
     color: white;
     display: grid;
@@ -44,29 +700,33 @@
     font-weight: 600;
     padding: 0px 10px;
     text-align: center;
-}
-.hrStyle{
+  }
+  .hrStyle {
     border-left: 2px solid #f3f3f39d;
     height: 50%;
   }
 
-.HeroDivInnerTwo{
+  .HeroDivInnerTwo {
     height: 100%;
-}
-#travelType, #duration{
+  }
+  #travelType,
+  #duration {
     width: 70%;
     display: flex;
     justify-self: center;
     align-self: center;
-}
-#duration{
+  }
+  #duration {
     padding-left: 10px;
-}
-#duration:focus, #duration:active, #travelType:focus, #travelType:active{
+  }
+  #duration:focus,
+  #duration:active,
+  #travelType:focus,
+  #travelType:active {
     outline: none;
     border: none;
-}
-.buttonSearch {
+  }
+  .buttonSearch {
     background-color: #df6951;
     border: 1px none;
     height: 46.42px;
@@ -78,47 +738,45 @@
     letter-spacing: 0;
     line-height: normal;
     text-align: center;
-}
-.HeroDivInnerOne select{
+  }
+  .HeroDivInnerOne select {
     background-color: transparent;
     border: none;
     color: white;
     font-size: 16px;
     font-weight: 500;
-}
-.HeroDivInnerTwo span{
+  }
+  .HeroDivInnerTwo span {
     font-size: 14px;
     font-weight: 600;
     color: white;
     padding-left: 10px;
-}
-.HeroDivInnerTwo{
+  }
+  .HeroDivInnerTwo {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-}
+  }
 
-.clients,
-.slogans {
-  /* position: relative; */
-  left: 0;
-}
-.clients {
-  top: 403px;
-  width: 800px;
-  height: 39.54px;
-  text-align: left;
-  font-size: 12.54px;
-  color: var(--white);
-  font-family: var(--font-poppins);
-  display: grid;
-  grid-template-columns: 27% 73%;
-}
+  .clients,
+  .slogans {
+    left: 0;
+  }
+  .clients {
+    top: 403px;
+    width: 800px;
+    height: 39.54px;
+    text-align: left;
+    font-size: 12.54px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+    display: grid;
+    grid-template-columns: 27% 73%;
+  }
 
-.peopleBookedTommorowland {
+  .peopleBookedTommorowland {
     margin: 0;
-    /* position: absolute; */
     top: 1.54px;
     left: 400px;
     line-height: 37.61px;
@@ -201,8 +859,6 @@
     line-height: 37.61px;
     font-weight: 500;
   }
-
-  /* here */
   .slogans {
     margin: 0;
     top: 29px;
@@ -239,7 +895,6 @@
     border: 0;
     padding: 0;
     background-color: var(--color-salmon);
-    /* position: absolute; */
     top: 23px;
     left: 629px;
     border-radius: var(--br-3xs);
@@ -252,14 +907,12 @@
     font-family: var(--font-poppins);
     font-size: 18.81px;
     background-color: transparent;
-    /* position: absolute; */
     top: 39px;
     left: 22px;
     color: var(--white);
     text-align: left;
   }
   .akarIconschevronDown {
-    /* position: absolute; */
     top: 39px;
     left: 374px;
     width: 24px;
@@ -267,7 +920,6 @@
     overflow: hidden;
   }
   .searcgingTools {
-    /* position: absolute; */
     top: 273px;
     left: 11px;
     width: 844px;
@@ -276,7 +928,6 @@
   .contextChild,
   .groupSelect,
   .groupSelect1 {
-    /* position: absolute; */
     top: 312px;
     left: 234px;
     width: 140px;
@@ -296,7 +947,6 @@
   }
   .context2,
   .context3 {
-    /* position: absolute; */
     top: 0;
     left: 0;
     width: 855px;
@@ -311,3 +961,1883 @@
     color: var(--white);
     font-family: var(--font-poppins);
   }
+}
+
+@media screen and (min-device-width: 992px) and (max-width: 1200px) {
+  .HeroContainer {
+    background-image: url('../../assets/HeroImage.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: inherit;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 70px;
+  }
+
+  .HeroDiv {
+    display: grid;
+    grid-template-rows: 52% 15% 12%;
+    row-gap: 3%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    padding-top: 130px;
+    padding-left: 190px;
+  }
+  .HeroImgOne {
+    width: 80px;
+  }
+  .HeroPtag {
+    font-size: 58px;
+    color: white;
+    font-weight: 700;
+    margin-top: -5px;
+    width: 70%;
+  }
+  .Twistcontainer {
+    height: 4px;
+  }
+  .HeroDivInnerOne {
+    background-color: #f3f3f3a5;
+    width: 90%;
+    border-radius: 4px;
+    color: white;
+    display: grid;
+    grid-template-columns: 24% 2% 24% 2% 24% 24%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 10px;
+    text-align: center;
+  }
+  .hrStyle {
+    border-left: 2px solid #f3f3f39d;
+    height: 50%;
+  }
+
+  .HeroDivInnerTwo {
+    height: 100%;
+  }
+  #travelType,
+  #duration {
+    width: 70%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  #duration {
+    padding-left: 10px;
+  }
+  #duration:focus,
+  #duration:active,
+  #travelType:focus,
+  #travelType:active {
+    outline: none;
+    border: none;
+  }
+  .buttonSearch {
+    background-color: #df6951;
+    border: 1px none;
+    height: 46.42px;
+    width: 80%;
+    border-radius: 8px;
+    color: var(--white);
+    font-size: 16.7px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+  }
+  .HeroDivInnerOne select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .HeroDivInnerTwo span {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding-left: 10px;
+  }
+  .HeroDivInnerTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .clients,
+  .slogans {
+    left: 0;
+  }
+  .clients {
+    top: 403px;
+    width: 800px;
+    height: 39.54px;
+    text-align: left;
+    font-size: 12.54px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+    display: grid;
+    grid-template-columns: 27% 73%;
+  }
+
+  .peopleBookedTommorowland {
+    margin: 0;
+    top: 1.54px;
+    left: 400px;
+    line-height: 37.61px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+  }
+  .ellipseParent {
+    position: relative;
+    top: 0.25px;
+    left: 0;
+    width: 181.79px;
+    height: 36px;
+  }
+  .groupChild5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild6,
+  .groupChild7,
+  .groupChild8,
+  .groupChild9 {
+    position: absolute;
+    top: 0;
+    left: 24.3px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild7,
+  .groupChild8,
+  .groupChild9 {
+    left: 48.6px;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild8,
+  .groupChild9 {
+    left: 72.89px;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild9 {
+    left: 97.19px;
+  }
+  .groupChild10,
+  .groupChild11 {
+    left: 121.49px;
+  }
+  .groupChild11 {
+    left: 145.79px;
+  }
+
+  .div44 {
+    background-color: #df6951;
+    width: 36px;
+    height: 36px;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 0;
+    left: 160px;
+    line-height: 37.61px;
+    font-weight: 500;
+  }
+  .slogans {
+    margin: 0;
+    top: 29px;
+    line-height: 67.91px;
+    font-weight: 700;
+    display: inline-block;
+    width: 631px;
+    height: 272px;
+    color: white;
+  }
+  .searcgingToolsChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5.22px;
+    background-color: rgba(243, 243, 243, 0.6);
+    backdrop-filter: blur(35.52px);
+    width: 844px;
+    height: 102px;
+  }
+  .submit {
+    position: absolute;
+    top: calc(50% - 12.21px);
+    left: calc(50% - 31.28px);
+    font-size: 16.72px;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: center;
+  }
+  .buttonSearch1 {
+    color: var(--white);
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-salmon);
+    top: 23px;
+    left: 629px;
+    border-radius: var(--br-3xs);
+    box-shadow: 0 20px 35px rgba(223, 105, 81, 0.15);
+    width: 176.56px;
+    height: 56.42px;
+  }
+  .whereTo {
+    border: 0;
+    font-family: var(--font-poppins);
+    font-size: 18.81px;
+    background-color: transparent;
+    top: 39px;
+    left: 22px;
+    color: var(--white);
+    text-align: left;
+  }
+  .akarIconschevronDown {
+    top: 39px;
+    left: 374px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .searcgingTools {
+    top: 273px;
+    left: 11px;
+    width: 844px;
+    height: 102px;
+  }
+  .contextChild,
+  .groupSelect,
+  .groupSelect1 {
+    top: 312px;
+    left: 234px;
+    width: 140px;
+    height: 28px;
+  }
+  .contextChild,
+  .groupSelect1 {
+    left: 473px;
+    width: 112px;
+  }
+  .contextChild {
+    top: -0.03px;
+    left: -2.34px;
+    border-radius: 2.09px;
+    width: 83.03px;
+    height: 16.87px;
+  }
+  .context2,
+  .context3 {
+    top: 0;
+    left: 0;
+    width: 855px;
+    height: 375px;
+  }
+  .context2 {
+    top: 298px;
+    left: 320px;
+    height: 442.54px;
+    text-align: left;
+    font-size: 58.51px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+  }
+}
+@media screen and (min-device-width: 1201px) and (max-width: 1440px) {
+  .HeroContainer {
+    background-image: url('../../assets/HeroImage.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: inherit;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 70px;
+  }
+
+  .HeroDiv {
+    display: grid;
+    grid-template-rows: 43% 15% 10%;
+    row-gap: 3%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+    padding-left: 190px;
+  }
+  .HeroImgOne {
+    width: 80px;
+  }
+  .HeroPtag {
+    font-size: 58px;
+    color: white;
+    font-weight: 700;
+    margin-top: -5px;
+    width: 70%;
+  }
+  .Twistcontainer {
+    height: 4px;
+  }
+  .HeroDivInnerOne {
+    background-color: #f3f3f3a5;
+    width: 90%;
+    border-radius: 4px;
+    color: white;
+    display: grid;
+    grid-template-columns: 24% 2% 24% 2% 24% 24%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 10px;
+    text-align: center;
+  }
+  .hrStyle {
+    border-left: 2px solid #f3f3f39d;
+    height: 50%;
+  }
+
+  .HeroDivInnerTwo {
+    height: 100%;
+  }
+  #travelType,
+  #duration {
+    width: 70%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  #duration {
+    padding-left: 10px;
+  }
+  #duration:focus,
+  #duration:active,
+  #travelType:focus,
+  #travelType:active {
+    outline: none;
+    border: none;
+  }
+  .buttonSearch {
+    background-color: #df6951;
+    border: 1px none;
+    height: 46.42px;
+    width: 80%;
+    border-radius: 8px;
+    color: var(--white);
+    font-size: 16.7px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+  }
+  .HeroDivInnerOne select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .HeroDivInnerTwo span {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding-left: 10px;
+  }
+  .HeroDivInnerTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .clients,
+  .slogans {
+    left: 0;
+  }
+  .clients {
+    top: 403px;
+    width: 800px;
+    height: 39.54px;
+    text-align: left;
+    font-size: 12.54px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+    display: grid;
+    grid-template-columns: 27% 73%;
+  }
+
+  .peopleBookedTommorowland {
+    margin: 0;
+    top: 1.54px;
+    left: 400px;
+    line-height: 37.61px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+  }
+  .ellipseParent {
+    position: relative;
+    top: 0.25px;
+    left: 0;
+    width: 181.79px;
+    height: 36px;
+  }
+  .groupChild5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild6,
+  .groupChild7,
+  .groupChild8,
+  .groupChild9 {
+    position: absolute;
+    top: 0;
+    left: 24.3px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild7,
+  .groupChild8,
+  .groupChild9 {
+    left: 48.6px;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild8,
+  .groupChild9 {
+    left: 72.89px;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild9 {
+    left: 97.19px;
+  }
+  .groupChild10,
+  .groupChild11 {
+    left: 121.49px;
+  }
+  .groupChild11 {
+    left: 145.79px;
+  }
+
+  .div44 {
+    background-color: #df6951;
+    width: 36px;
+    height: 36px;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 0;
+    left: 160px;
+    line-height: 37.61px;
+    font-weight: 500;
+  }
+  .slogans {
+    margin: 0;
+    top: 29px;
+    line-height: 67.91px;
+    font-weight: 700;
+    display: inline-block;
+    width: 631px;
+    height: 272px;
+    color: white;
+  }
+  .searcgingToolsChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5.22px;
+    background-color: rgba(243, 243, 243, 0.6);
+    backdrop-filter: blur(35.52px);
+    width: 844px;
+    height: 102px;
+  }
+  .submit {
+    position: absolute;
+    top: calc(50% - 12.21px);
+    left: calc(50% - 31.28px);
+    font-size: 16.72px;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: center;
+  }
+  .buttonSearch1 {
+    color: var(--white);
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-salmon);
+    top: 23px;
+    left: 629px;
+    border-radius: var(--br-3xs);
+    box-shadow: 0 20px 35px rgba(223, 105, 81, 0.15);
+    width: 176.56px;
+    height: 56.42px;
+  }
+  .whereTo {
+    border: 0;
+    font-family: var(--font-poppins);
+    font-size: 18.81px;
+    background-color: transparent;
+    top: 39px;
+    left: 22px;
+    color: var(--white);
+    text-align: left;
+  }
+  .akarIconschevronDown {
+    top: 39px;
+    left: 374px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .searcgingTools {
+    top: 273px;
+    left: 11px;
+    width: 844px;
+    height: 102px;
+  }
+  .contextChild,
+  .groupSelect,
+  .groupSelect1 {
+    top: 312px;
+    left: 234px;
+    width: 140px;
+    height: 28px;
+  }
+  .contextChild,
+  .groupSelect1 {
+    left: 473px;
+    width: 112px;
+  }
+  .contextChild {
+    top: -0.03px;
+    left: -2.34px;
+    border-radius: 2.09px;
+    width: 83.03px;
+    height: 16.87px;
+  }
+  .context2,
+  .context3 {
+    top: 0;
+    left: 0;
+    width: 855px;
+    height: 375px;
+  }
+  .context2 {
+    top: 298px;
+    left: 320px;
+    height: 442.54px;
+    text-align: left;
+    font-size: 58.51px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+  }
+}
+@media screen and (min-device-width: 1441px) and (max-width: 1600px) {
+  .HeroContainer {
+    background-image: url('../../assets/HeroImage.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: inherit;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 70px;
+  }
+
+  .HeroDiv {
+    display: grid;
+    grid-template-rows: 35% 15% 10%;
+    row-gap: 3%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    padding-top: 200px;
+    padding-left: 190px;
+  }
+  .HeroImgOne {
+    width: 80px;
+  }
+  .HeroPtag {
+    font-size: 58px;
+    color: white;
+    font-weight: 700;
+    margin-top: -5px;
+    width: 70%;
+  }
+  .Twistcontainer {
+    height: 4px;
+  }
+  .HeroDivInnerOne {
+    background-color: #f3f3f3a5;
+    width: 90%;
+    border-radius: 4px;
+    color: white;
+    display: grid;
+    grid-template-columns: 24% 2% 24% 2% 24% 24%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1%;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 0px 10px;
+    text-align: center;
+  }
+  .hrStyle {
+    border-left: 2px solid #f3f3f39d;
+    height: 50%;
+  }
+
+  .HeroDivInnerTwo {
+    height: 100%;
+  }
+  #travelType,
+  #duration {
+    width: 70%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  #duration {
+    padding-left: 10px;
+  }
+  #duration:focus,
+  #duration:active,
+  #travelType:focus,
+  #travelType:active {
+    outline: none;
+    border: none;
+  }
+  .buttonSearch {
+    background-color: #df6951;
+    border: 1px none;
+    height: 60px;
+    width: 80%;
+    border-radius: 10px;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+  }
+  .HeroDivInnerOne select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .HeroDivInnerTwo span {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding-left: 10px;
+  }
+  .HeroDivInnerTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .clients,
+  .slogans {
+    left: 0;
+  }
+  .clients {
+    top: 403px;
+    width: 800px;
+    height: 39.54px;
+    text-align: left;
+    font-size: 12.54px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+    display: grid;
+    grid-template-columns: 27% 73%;
+  }
+
+  .peopleBookedTommorowland {
+    margin: 0;
+    top: 1.54px;
+    left: 400px;
+    line-height: 37.61px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+  }
+  .ellipseParent {
+    position: relative;
+    top: 0.25px;
+    left: 0;
+    width: 181.79px;
+    height: 36px;
+  }
+  .groupChild5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild6,
+  .groupChild7,
+  .groupChild8,
+  .groupChild9 {
+    position: absolute;
+    top: 0;
+    left: 24.3px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild7,
+  .groupChild8,
+  .groupChild9 {
+    left: 48.6px;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild8,
+  .groupChild9 {
+    left: 72.89px;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild9 {
+    left: 97.19px;
+  }
+  .groupChild10,
+  .groupChild11 {
+    left: 121.49px;
+  }
+  .groupChild11 {
+    left: 145.79px;
+  }
+
+  .div44 {
+    background-color: #df6951;
+    width: 36px;
+    height: 36px;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 0;
+    left: 160px;
+    line-height: 37.61px;
+    font-weight: 500;
+  }
+  .slogans {
+    margin: 0;
+    top: 29px;
+    line-height: 67.91px;
+    font-weight: 700;
+    display: inline-block;
+    width: 631px;
+    height: 272px;
+    color: white;
+  }
+  .searcgingToolsChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5.22px;
+    background-color: rgba(243, 243, 243, 0.6);
+    backdrop-filter: blur(35.52px);
+    width: 844px;
+    height: 102px;
+  }
+  .submit {
+    position: absolute;
+    top: calc(50% - 12.21px);
+    left: calc(50% - 31.28px);
+    font-size: 16.72px;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: center;
+  }
+  .buttonSearch1 {
+    color: var(--white);
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-salmon);
+    top: 23px;
+    left: 629px;
+    border-radius: var(--br-3xs);
+    box-shadow: 0 20px 35px rgba(223, 105, 81, 0.15);
+    width: 176.56px;
+    height: 56.42px;
+  }
+  .whereTo {
+    border: 0;
+    font-family: var(--font-poppins);
+    font-size: 18.81px;
+    background-color: transparent;
+    top: 39px;
+    left: 22px;
+    color: var(--white);
+    text-align: left;
+  }
+  .akarIconschevronDown {
+    top: 39px;
+    left: 374px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .searcgingTools {
+    top: 273px;
+    left: 11px;
+    width: 844px;
+    height: 102px;
+  }
+  .contextChild,
+  .groupSelect,
+  .groupSelect1 {
+    top: 312px;
+    left: 234px;
+    width: 140px;
+    height: 28px;
+  }
+  .contextChild,
+  .groupSelect1 {
+    left: 473px;
+    width: 112px;
+  }
+  .contextChild {
+    top: -0.03px;
+    left: -2.34px;
+    border-radius: 2.09px;
+    width: 83.03px;
+    height: 16.87px;
+  }
+  .context2,
+  .context3 {
+    top: 0;
+    left: 0;
+    width: 855px;
+    height: 375px;
+  }
+  .context2 {
+    top: 298px;
+    left: 320px;
+    height: 442.54px;
+    text-align: left;
+    font-size: 58.51px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+  }
+}
+@media screen and (min-device-width: 1601px) and (max-width: 1900px) {
+  .HeroContainer {
+    background-image: url('../../assets/HeroImage.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: inherit;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 70px;
+  }
+
+  .HeroDiv {
+    display: grid;
+    grid-template-rows: 35% 15% 10%;
+    row-gap: 3%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    padding-top: 250px;
+    padding-left: 190px;
+  }
+  .HeroImgOne {
+    width: 80px;
+  }
+  .HeroPtag {
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    margin-top: -5px;
+    width: 70%;
+  }
+  .Twistcontainer {
+    height: 4px;
+  }
+  .HeroDivInnerOne {
+    background-color: #f3f3f3a5;
+    width: 90%;
+    border-radius: 4px;
+    color: white;
+    display: grid;
+    grid-template-columns: 24% 2% 24% 2% 24% 24%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1%;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 10px;
+    text-align: center;
+  }
+  .hrStyle {
+    border-left: 2px solid #f3f3f39d;
+    height: 50%;
+  }
+
+  .HeroDivInnerTwo {
+    height: 100%;
+  }
+  #travelType,
+  #duration {
+    width: 70%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  #duration {
+    padding-left: 10px;
+  }
+  #duration:focus,
+  #duration:active,
+  #travelType:focus,
+  #travelType:active {
+    outline: none;
+    border: none;
+  }
+  .buttonSearch {
+    background-color: #df6951;
+    border: 1px none;
+    height: 70px;
+    width: 80%;
+    border-radius: 8px;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+  }
+  .HeroDivInnerOne select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .HeroDivInnerTwo span {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding-left: 10px;
+  }
+  .HeroDivInnerTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .clients,
+  .slogans {
+    left: 0;
+  }
+  .clients {
+    top: 403px;
+    width: 800px;
+    height: 39.54px;
+    text-align: left;
+    font-size: 12.54px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+    display: grid;
+    grid-template-columns: 27% 73%;
+  }
+
+  .peopleBookedTommorowland {
+    margin: 0;
+    top: 1.54px;
+    left: 400px;
+    line-height: 37.61px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+  }
+  .ellipseParent {
+    position: relative;
+    top: 0.25px;
+    left: 0;
+    width: 181.79px;
+    height: 36px;
+  }
+  .groupChild5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild6,
+  .groupChild7,
+  .groupChild8,
+  .groupChild9 {
+    position: absolute;
+    top: 0;
+    left: 24.3px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild7,
+  .groupChild8,
+  .groupChild9 {
+    left: 48.6px;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild8,
+  .groupChild9 {
+    left: 72.89px;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild9 {
+    left: 97.19px;
+  }
+  .groupChild10,
+  .groupChild11 {
+    left: 121.49px;
+  }
+  .groupChild11 {
+    left: 145.79px;
+  }
+
+  .div44 {
+    background-color: #df6951;
+    width: 36px;
+    height: 36px;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 0;
+    left: 160px;
+    line-height: 37.61px;
+    font-weight: 500;
+  }
+  .slogans {
+    margin: 0;
+    top: 29px;
+    line-height: 67.91px;
+    font-weight: 700;
+    display: inline-block;
+    width: 631px;
+    height: 272px;
+    color: white;
+  }
+  .searcgingToolsChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5.22px;
+    background-color: rgba(243, 243, 243, 0.6);
+    backdrop-filter: blur(35.52px);
+    width: 844px;
+    height: 102px;
+  }
+  .submit {
+    position: absolute;
+    top: calc(50% - 12.21px);
+    left: calc(50% - 31.28px);
+    font-size: 16.72px;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: center;
+  }
+  .buttonSearch1 {
+    color: var(--white);
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-salmon);
+    top: 23px;
+    left: 629px;
+    border-radius: var(--br-3xs);
+    box-shadow: 0 20px 35px rgba(223, 105, 81, 0.15);
+    width: 176.56px;
+    height: 56.42px;
+  }
+  .whereTo {
+    border: 0;
+    font-family: var(--font-poppins);
+    font-size: 18.81px;
+    background-color: transparent;
+    top: 39px;
+    left: 22px;
+    color: var(--white);
+    text-align: left;
+  }
+  .akarIconschevronDown {
+    top: 39px;
+    left: 374px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .searcgingTools {
+    top: 273px;
+    left: 11px;
+    width: 844px;
+    height: 102px;
+  }
+  .contextChild,
+  .groupSelect,
+  .groupSelect1 {
+    top: 312px;
+    left: 234px;
+    width: 140px;
+    height: 28px;
+  }
+  .contextChild,
+  .groupSelect1 {
+    left: 473px;
+    width: 112px;
+  }
+  .contextChild {
+    top: -0.03px;
+    left: -2.34px;
+    border-radius: 2.09px;
+    width: 83.03px;
+    height: 16.87px;
+  }
+  .context2,
+  .context3 {
+    top: 0;
+    left: 0;
+    width: 855px;
+    height: 375px;
+  }
+  .context2 {
+    top: 298px;
+    left: 320px;
+    height: 442.54px;
+    text-align: left;
+    font-size: 58.51px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+  }
+}
+@media screen and (min-device-width: 1901px) and (max-width: 2300px) {
+  .HeroContainer {
+    background-image: url('../../assets/HeroImage.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: inherit;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 70px;
+  }
+
+  .HeroDiv {
+    display: grid;
+    grid-template-rows: 35% 12% 10%;
+    row-gap: 3%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    padding-top: 300px;
+    padding-left: 190px;
+  }
+  .HeroImgOne {
+    width: 80px;
+  }
+  .HeroPtag {
+    font-size: 70px;
+    color: white;
+    font-weight: 600;
+    margin-top: -5px;
+    width: 70%;
+  }
+  .Twistcontainer {
+    height: 4px;
+  }
+  .HeroDivInnerOne {
+    background-color: #f3f3f3a5;
+    width: 90%;
+    border-radius: 4px;
+    color: white;
+    display: grid;
+    grid-template-columns: 24% 2% 24% 2% 24% 24%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1%;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 10px;
+    text-align: center;
+  }
+  .hrStyle {
+    border-left: 2px solid #f3f3f39d;
+    height: 50%;
+  }
+
+  .HeroDivInnerTwo {
+    height: 100%;
+  }
+  #travelType,
+  #duration {
+    width: 70%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  #duration {
+    padding-left: 10px;
+  }
+  #duration:focus,
+  #duration:active,
+  #travelType:focus,
+  #travelType:active {
+    outline: none;
+    border: none;
+  }
+  .buttonSearch {
+    background-color: #df6951;
+    border: 1px none;
+    height: 80px;
+    width: 80%;
+    border-radius: 12px;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+  }
+  .HeroDivInnerOne select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .HeroDivInnerTwo span {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding-left: 10px;
+  }
+  .HeroDivInnerTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .clients,
+  .slogans {
+    left: 0;
+  }
+  .clients {
+    top: 403px;
+    width: 800px;
+    height: 39.54px;
+    text-align: left;
+    font-size: 12.54px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+    display: grid;
+    grid-template-columns: 27% 73%;
+  }
+
+  .peopleBookedTommorowland {
+    margin: 0;
+    top: 1.54px;
+    left: 400px;
+    line-height: 37.61px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+  }
+  .ellipseParent {
+    position: relative;
+    top: 0.25px;
+    left: 0;
+    width: 181.79px;
+    height: 36px;
+  }
+  .groupChild5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild6,
+  .groupChild7,
+  .groupChild8,
+  .groupChild9 {
+    position: absolute;
+    top: 0;
+    left: 24.3px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild7,
+  .groupChild8,
+  .groupChild9 {
+    left: 48.6px;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild8,
+  .groupChild9 {
+    left: 72.89px;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild9 {
+    left: 97.19px;
+  }
+  .groupChild10,
+  .groupChild11 {
+    left: 121.49px;
+  }
+  .groupChild11 {
+    left: 145.79px;
+  }
+
+  .div44 {
+    background-color: #df6951;
+    width: 36px;
+    height: 36px;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 0;
+    left: 160px;
+    line-height: 37.61px;
+    font-weight: 500;
+  }
+  .slogans {
+    margin: 0;
+    top: 29px;
+    line-height: 67.91px;
+    font-weight: 700;
+    display: inline-block;
+    width: 631px;
+    height: 272px;
+    color: white;
+  }
+  .searcgingToolsChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5.22px;
+    background-color: rgba(243, 243, 243, 0.6);
+    backdrop-filter: blur(35.52px);
+    width: 844px;
+    height: 102px;
+  }
+  .submit {
+    position: absolute;
+    top: calc(50% - 12.21px);
+    left: calc(50% - 31.28px);
+    font-size: 16.72px;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: center;
+  }
+  .buttonSearch1 {
+    color: var(--white);
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-salmon);
+    top: 23px;
+    left: 629px;
+    border-radius: var(--br-3xs);
+    box-shadow: 0 20px 35px rgba(223, 105, 81, 0.15);
+    width: 176.56px;
+    height: 56.42px;
+  }
+  .whereTo {
+    border: 0;
+    font-family: var(--font-poppins);
+    font-size: 18.81px;
+    background-color: transparent;
+    top: 39px;
+    left: 22px;
+    color: var(--white);
+    text-align: left;
+  }
+  .akarIconschevronDown {
+    top: 39px;
+    left: 374px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .searcgingTools {
+    top: 273px;
+    left: 11px;
+    width: 844px;
+    height: 102px;
+  }
+  .contextChild,
+  .groupSelect,
+  .groupSelect1 {
+    top: 312px;
+    left: 234px;
+    width: 140px;
+    height: 28px;
+  }
+  .contextChild,
+  .groupSelect1 {
+    left: 473px;
+    width: 112px;
+  }
+  .contextChild {
+    top: -0.03px;
+    left: -2.34px;
+    border-radius: 2.09px;
+    width: 83.03px;
+    height: 16.87px;
+  }
+  .context2,
+  .context3 {
+    top: 0;
+    left: 0;
+    width: 855px;
+    height: 375px;
+  }
+  .context2 {
+    top: 298px;
+    left: 320px;
+    height: 442.54px;
+    text-align: left;
+    font-size: 58.51px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+  }
+}
+@media screen and (min-device-width: 2301px) {
+  .HeroContainer {
+    background-image: url('../../assets/HeroImage.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+    width: inherit;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 70px;
+  }
+
+  .HeroDiv {
+    display: grid;
+    grid-template-rows: 30% 10% 10%;
+    row-gap: 3%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    padding-top: 400px;
+    padding-left: 190px;
+  }
+  .HeroImgOne {
+    width: 80px;
+  }
+  .HeroPtag {
+    font-size: 80px;
+    color: white;
+    font-weight: 700;
+    margin-top: -5px;
+    width: 70%;
+  }
+  .Twistcontainer {
+    height: 4px;
+  }
+  .HeroDivInnerOne {
+    background-color: #f3f3f3a5;
+    width: 90%;
+    border-radius: 4px;
+    color: white;
+    display: grid;
+    grid-template-columns: 24% 2% 24% 2% 24% 24%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 10px;
+    text-align: center;
+  }
+  .hrStyle {
+    border-left: 2px solid #f3f3f39d;
+    height: 50%;
+  }
+
+  .HeroDivInnerTwo {
+    height: 100%;
+  }
+  #travelType,
+  #duration {
+    width: 70%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  #duration {
+    padding-left: 10px;
+  }
+  #duration:focus,
+  #duration:active,
+  #travelType:focus,
+  #travelType:active {
+    outline: none;
+    border: none;
+  }
+  .buttonSearch {
+    background-color: #df6951;
+    border: 1px none;
+    height: 70px;
+    width: 80%;
+    border-radius: 8px;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+  }
+  .HeroDivInnerOne select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .HeroDivInnerTwo span {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding-left: 10px;
+  }
+  .HeroDivInnerTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .clients,
+  .slogans {
+    left: 0;
+  }
+  .clients {
+    top: 403px;
+    width: 800px;
+    height: 39.54px;
+    text-align: left;
+    font-size: 12.54px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+    display: grid;
+    grid-template-columns: 27% 73%;
+  }
+
+  .peopleBookedTommorowland {
+    margin: 0;
+    top: 1.54px;
+    left: 400px;
+    line-height: 37.61px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+  }
+  .ellipseParent {
+    position: relative;
+    top: 0.25px;
+    left: 0;
+    width: 181.79px;
+    height: 36px;
+  }
+  .groupChild5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild6,
+  .groupChild7,
+  .groupChild8,
+  .groupChild9 {
+    position: absolute;
+    top: 0;
+    left: 24.3px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild7,
+  .groupChild8,
+  .groupChild9 {
+    left: 48.6px;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild8,
+  .groupChild9 {
+    left: 72.89px;
+  }
+  .groupChild10,
+  .groupChild11,
+  .groupChild9 {
+    left: 97.19px;
+  }
+  .groupChild10,
+  .groupChild11 {
+    left: 121.49px;
+  }
+  .groupChild11 {
+    left: 145.79px;
+  }
+
+  .div44 {
+    background-color: #df6951;
+    width: 36px;
+    height: 36px;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 0;
+    left: 160px;
+    line-height: 37.61px;
+    font-weight: 500;
+  }
+  .slogans {
+    margin: 0;
+    top: 29px;
+    line-height: 67.91px;
+    font-weight: 700;
+    display: inline-block;
+    width: 631px;
+    height: 272px;
+    color: white;
+  }
+  .searcgingToolsChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5.22px;
+    background-color: rgba(243, 243, 243, 0.6);
+    backdrop-filter: blur(35.52px);
+    width: 844px;
+    height: 102px;
+  }
+  .submit {
+    position: absolute;
+    top: calc(50% - 12.21px);
+    left: calc(50% - 31.28px);
+    font-size: 16.72px;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: center;
+  }
+  .buttonSearch1 {
+    color: var(--white);
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-salmon);
+    top: 23px;
+    left: 629px;
+    border-radius: var(--br-3xs);
+    box-shadow: 0 20px 35px rgba(223, 105, 81, 0.15);
+    width: 176.56px;
+    height: 56.42px;
+  }
+  .whereTo {
+    border: 0;
+    font-family: var(--font-poppins);
+    font-size: 18.81px;
+    background-color: transparent;
+    top: 39px;
+    left: 22px;
+    color: var(--white);
+    text-align: left;
+  }
+  .akarIconschevronDown {
+    top: 39px;
+    left: 374px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .searcgingTools {
+    top: 273px;
+    left: 11px;
+    width: 844px;
+    height: 102px;
+  }
+  .contextChild,
+  .groupSelect,
+  .groupSelect1 {
+    top: 312px;
+    left: 234px;
+    width: 140px;
+    height: 28px;
+  }
+  .contextChild,
+  .groupSelect1 {
+    left: 473px;
+    width: 112px;
+  }
+  .contextChild {
+    top: -0.03px;
+    left: -2.34px;
+    border-radius: 2.09px;
+    width: 83.03px;
+    height: 16.87px;
+  }
+  .context2,
+  .context3 {
+    top: 0;
+    left: 0;
+    width: 855px;
+    height: 375px;
+  }
+  .context2 {
+    top: 298px;
+    left: 320px;
+    height: 442.54px;
+    text-align: left;
+    font-size: 58.51px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+  }
+}

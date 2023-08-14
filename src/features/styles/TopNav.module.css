@@ -95,8 +95,490 @@ display: block;
     align-self: self-start;
     flex-direction: column;
 } */
+@media screen and (max-width: 480px) {
+    .mobileScreen {
+        display: grid;
+        grid-template-columns: 45% 40%;
+        /* position: fixed; */
+        /* min-width: 450px; */
 
-@media screen 
+    }
+    .menuInFront {
+        display: block;
+      }
+    .TopNavContainer {
+        display: none;
+    }
+
+    .scrollBgColor {
+        background-color: white;
+        z-index: 5;
+    }
+    .scrollBgColor {
+        background-color: white;
+        z-index: 5;
+    }
+
+    .notScrollColor {
+        color: #fff;
+        font-weight: 700;
+        width: 90%;
+        text-align: right;
+    }
+
+    .mobileScreenUl {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        height: 200px;
+        font-weight: 600;
+        text-align: left;
+        color: white;
+        width: 70%;
+        padding: 2%;
+    }
+
+    .mobileScreenUl div{
+        width: 100%;
+        padding-left: 50px;
+    }
+
+    .mobileScreenUl div li {
+        list-style: none;
+        text-align: left;
+    }
+
+    .mobileLiBorder {
+        /* border: 2px solid #DF6951; */
+        width: 10%;
+        border-radius: 8px;
+        display: flex;
+        justify-self: start;
+        align-self: self-start;
+        flex-direction: column;
+    }
+
+    .mobileLiBorderU {
+        /* border: 2px solid #DF6951; */
+        width: 20px;
+        border-radius: 8px;
+        display: flex;
+        justify-self: start;
+        align-self: self-start;
+        flex-direction: column;
+    }
+
+    .drawerClosed {
+        width: 0;
+        transition: width 0.3s ease-in-out;
+        overflow: hidden;
+    }
+
+    .drawerOpen {
+        width: 250px;
+        transition: width 0.3s ease-in-out;
+        overflow: hidden;
+    }
+
+    .myOverlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 300px;
+        height: 280px;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        text-align: left;
+    }
+
+    .TopNavButton button {
+        background-color: #DF6951;
+        color: white;
+        border-radius: 8px;
+        height: 50px;
+        width: 40%;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 600;
+        border: none;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+    .dropdownMenu {
+        background-color: #181e4b75;
+    }
+    .menuIcon{
+        color: #000;
+        display: flex;
+        justify-content: flex-end;
+        /* padding-right: 30px; */
+        padding-top: 10px;
+    }
+    .TopNavMobileLogo img{
+        width: 100px;
+        height: 60px;
+    }
+
+}
+
+@media screen and (min-device-width: 481px) and (max-width: 768px) {
+    .TopNavContainer {
+        display: grid;
+        grid-template-columns: 15% 70% 15%;
+        position: fixed;
+        width: 95%;
+        height: 50px;
+        padding: 20px 0px;
+    }
+
+    .mobileScreen {
+        display: none;
+    }
+
+    .scrollBgColor {
+        background-color: white;
+        z-index: 5;
+    }
+
+    .scrollColor {
+        color: #181E4B;
+        font-weight: 700;
+    }
+
+    .TopNavLogo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        padding-left: 20px;
+    }
+
+    .TopNavLogo img {
+        width: 100px;
+        height: 40px;
+    }
+
+    .TopNavButton button {
+        background-color: #DF6951;
+        color: white;
+        border-radius: 8px;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 600;
+        border: none;
+    }
+
+    .TopNavMenu {
+        display: grid;
+        grid-template-columns: 15% 15% 27% 43%;
+        color: white;
+        list-style: none;
+        font-size: 12px;
+        font-weight: 550;
+        width: 90%;
+    }
+
+    .shape {
+        font-size: 12px;
+        font-weight: 500;
+        text-align: left;
+        width: 100%;
+        height: 100%;
+        padding: 5% 3% 0% 4%;
+        line-height: 18px;
+        display: flex;
+        justify-self: start;
+        align-self: self-start;
+        flex-direction: column;
+    }
+
+    .dropdownMenu {
+        background-image: url('../../assets//ServiceDropdown.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 9999;
+        height: 100px;
+        width: 250px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+        position: absolute;
+    }
+
+    .TopNavMenu li {
+        /* margin-right: 20px; */
+        cursor: pointer;
+        position: relative;
+        list-style: none;
+    }
+
+    .TopNavMenu li.active {
+        border-bottom: 4px solid #DF6951;
+    }
+
+    .TopNavMenu li:hover .dropdownMenu,
+    .TopNavMenu li.active .dropdownMenu {
+        display: block;
+    }
+
+    .liBorderDiv {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .liBorder {
+        border: 2px solid #DF6951;
+        width: 30px;
+        border-radius: 8px;
+        display: flex;
+        justify-self: start;
+        align-self: self-start;
+        flex-direction: column;
+    }
+
+    .liBorderU {
+        border: 2px solid #DF6951;
+        width: 105px;
+        border-radius: 8px;
+        display: flex;
+        justify-self: start;
+        align-self: self-start;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-device-width: 769px) {
+    .TopNavContainer {
+        display: grid;
+        grid-template-columns: 23% 52% 25%;
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        padding: 20px 0px;
+    }
+
+    .mobileScreen {
+        display: none;
+    }
+
+    .TopNavLogo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+    }
+
+    .TopNavButton button {
+        background-color: #DF6951;
+        color: white;
+        border-radius: 8px;
+        height: 50px;
+        width: 50%;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+    }
+
+    .TopNavMenu {
+        display: grid;
+        grid-template-columns: 15% 15% 27% 43%;
+        color: white;
+        list-style: none;
+    }
+
+    .scrollBgColor {
+        background-color: white;
+        z-index: 5;
+    }
+
+    .scrollColor {
+        color: #181E4B;
+        font-weight: 700;
+    }
+
+    .shape {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        width: 100%;
+        height: 100%;
+        padding: 5% 3% 0% 4%;
+        line-height: 23px;
+        display: flex;
+        justify-self: start;
+        align-self: self-start;
+        flex-direction: column;
+    }
+
+    .dropdownMenu {
+        background-image: url('../../assets//ServiceDropdown.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 9999;
+        height: 100px;
+        width: 250px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+        position: absolute;
+    }
+
+    .TopNavMenu li {
+        margin-right: 20px;
+        cursor: pointer;
+        position: relative;
+        list-style: none;
+    }
+
+    .TopNavMenu li.active {
+        border-bottom: 4px solid #DF6951;
+    }
+
+    .TopNavMenu li:hover .dropdownMenu,
+    .TopNavMenu li.active .dropdownMenu {
+        display: block;
+    }
+
+    .liBorderDiv {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .liBorder {
+        border: 2px solid #DF6951;
+        width: 40px;
+        border-radius: 8px;
+        display: flex;
+        justify-self: start;
+        align-self: self-start;
+        flex-direction: column;
+    }
+
+    .liBorderU {
+        border: 2px solid #DF6951;
+        width: 120px;
+        border-radius: 8px;
+        display: flex;
+        justify-self: start;
+        align-self: self-start;
+        flex-direction: column;
+    }
+}
+
+
+/* @media screen and (min-device-width: 769px) and (max-width: 1024) {
+    .TopNavContainer{
+        display: grid;
+        grid-template-columns: 30% 40% 30%;
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        padding: 20px 0px;
+    }
+    .TopNavLogo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+    }
+    
+    .TopNavButton button{
+        background-color: #DF6951;
+        color: white;
+        border-radius: 8px;
+        height: 50px;
+        width: 30%;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 600;
+        border: none;
+    }
+    .TopNavMenu{
+        display: grid;
+        grid-template-columns: 22.5% 22.5% 25% 30%;
+        color: white;
+        list-style: none;
+    }
+    .shape{
+        font-size: 12px;
+        font-weight: 500;	
+        text-align: left;
+        width: 100%;
+        height: 100%;
+        padding: 5% 3% 0% 4%;
+        line-height: 18px;
+        display: flex;
+        justify-self: start;
+        align-self: self-start;
+        flex-direction: column;
+    }
+    .dropdownMenu{
+        background-image: url('../../assets//ServiceDropdown.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 9999;
+        height: 100px;
+        width: 250px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+        position: absolute;
+    }
+    .TopNavMenu li {
+    margin-right: 20px;
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+    }
+    .TopNavMenu li.active {
+    border-bottom: 4px solid #DF6951;
+    }  
+    .TopNavMenu li:hover .dropdownMenu,
+    .TopNavMenu li.active .dropdownMenu {
+    display: block;
+    }
+      
+    .liBorderDiv{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+    .liBorder{
+        border: 2px solid #DF6951;
+        width: 40px;
+        border-radius: 8px;
+        display: flex;
+        justify-self: start;
+        align-self: self-start;
+        flex-direction: column;
+    }
+    .liBorderU{
+        border: 2px solid #DF6951;
+        width: 120px;
+        border-radius: 8px;
+        display: flex;
+        justify-self: start;
+        align-self: self-start;
+        flex-direction: column;
+    }
+} */
+
+/* @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
@@ -198,10 +680,10 @@ display: block;
         flex-direction: column;
     }
     
-}
+} */
 
 /* ----------- Retina Screens ----------- */
-@media screen 
+/* @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 2)
@@ -304,4 +786,4 @@ display: block;
         flex-direction: column;
     }
     
-}
+} */
