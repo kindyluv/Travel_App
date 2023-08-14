@@ -57,6 +57,69 @@
     text-align: center;
 } */
 
+@media screen and (max-width: 480px){
+    .TropicalMain{
+        width: 100%;
+        display: grid;
+        grid-template-rows: 50% 50%;
+        row-gap: 50px;
+    }
+    
+    .TropicalImage{
+        width: 300px;
+        height: 400px;
+        display: flex;
+        justify-self: center;
+        margin-left: -40px;
+        filter: saturate(2);
+    }
+    
+    .TropicalText{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        justify-self: center;
+    }
+    
+    .TropicalTextOne{
+        color: #df6951;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .TropicalTextTwo{
+        color: #000;
+        font-size: 23px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .TropicalTextThree{
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .TropicalBtn{
+        background-color: #df6951;
+        border: 1px none;
+        height: 50px;
+        width: 120px;
+        border-radius: 8px;
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: normal;
+        text-align: center;
+    }
+}
+
 @media screen and (min-device-width: 481px) and (max-width: 768px){
     .TropicalMain{
         width: 100%;

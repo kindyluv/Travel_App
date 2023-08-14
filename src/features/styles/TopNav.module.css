@@ -98,8 +98,9 @@ display: block;
 @media screen and (max-width: 480px) {
     .mobileScreen {
         display: grid;
-        grid-template-columns: 50% 50%;
-        position: fixed;
+        grid-template-columns: 45% 40%;
+        /* position: fixed; */
+        /* min-width: 450px; */
 
     }
     .menuInFront {
@@ -111,11 +112,11 @@ display: block;
 
     .scrollBgColor {
         background-color: white;
-        /* z-index: 5; */
+        z-index: 5;
     }
     .scrollBgColor {
         background-color: white;
-        /* z-index: 5; */
+        z-index: 5;
     }
 
     .notScrollColor {
@@ -205,7 +206,18 @@ display: block;
         margin-top: -10px;
     }
     .dropdownMenu {
-        background-color: #181E4B;
+        background-color: #181e4b75;
+    }
+    .menuIcon{
+        color: #000;
+        display: flex;
+        justify-content: flex-end;
+        /* padding-right: 30px; */
+        padding-top: 10px;
+    }
+    .TopNavMobileLogo img{
+        width: 100px;
+        height: 60px;
     }
 
 }

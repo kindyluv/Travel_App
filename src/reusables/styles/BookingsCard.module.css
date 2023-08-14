@@ -23,6 +23,35 @@
     font-weight: 400;
 } */
 
+@media screen and (max-width: 480px){
+    .BookingsCardMain{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        column-gap: 4%;
+    }
+    
+    .BookingsCardImg{
+        justify-self: flex-end;
+        align-self: center;
+        display: flex;
+    }
+    
+    .BookingsCarddiv{
+        text-align: left;
+        width: 100%;
+    }
+    
+    .BookingsCardtopic{
+        font-weight: 700;
+    }
+    
+    .BookingsCardbody{
+        font-weight: 400;
+    }
+    
+}
+
+
 @media screen and (min-device-width: 481px) and (max-width: 768px){
     .BookingsCardMain{
         display: grid;

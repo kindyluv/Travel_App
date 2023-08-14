@@ -154,10 +154,10 @@ const TopNav = () => {
       </div>
       <div className={`${Styles.mobileScreen} ${scrollBg ? Styles.scrollBgColor : ''}`}>
         <div className={Styles.TopNavMobileLogo}>
-          <img src={scrollBg ? BlackLogo : Logo} alt="Travel Logo" />
+          <img src={BlackLogo} alt="Travel Logo" />
         </div>
-        <div>
-          <span className={`${Styles.mobileScreen} ${'mySidebar'}`} onClick={handleIsMobile}>☰</span>
+        <div className={Styles.mobileMain}>
+          <span className={`${Styles.menuIcon}`} onClick={handleIsMobile}>☰</span>
           <div className={isDrawerOpen ? Styles.drawerOpen : Styles.drawerClosed}>
             {isMobile && sidebarVisible &&
               <div className={Styles.myOverlay}>

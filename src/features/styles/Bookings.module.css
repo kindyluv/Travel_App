@@ -207,6 +207,225 @@
     font-family: var(--font-volkhov);
   } */
 
+  @media screen and (max-width: 480px){
+    .BookingsMainContain{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5% 0%;
+      margin-top: 150px;
+  }
+  
+  .BookingsMain{
+      width: 70%;
+      display: grid;
+      grid-template-rows: 50% 50%;
+  }
+  
+  .BookingsPtagOne{
+      color: #DF6951;
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: -20px;
+  }
+  
+  .BookingsPtagTwo{
+      color: #181E4B;
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      width: 90%;
+  }
+  
+  .BookingsDivOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .BookingsDivTwo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-direction: column;
+  }
+  
+  .BookingsDivThree{
+  
+  }
+  
+  .BookingsImage{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-self: flex-start;
+      filter: saturate(2);
+      align-self: flex-start;
+  }
+  
+  .BookingsDivFour{
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+  }
+  .book-a-trip {
+      position: absolute;
+      top: 2822px;
+      left: 277px;
+      width: 1605px;
+      height: 600px;
+  }
+    .illustration,
+    .illustration1 {
+      position: absolute;
+      top: 127px;
+      left: 26px;
+      width: 528px;
+      height: 417px;
+      font-size: var(--font-size-base);
+      color: var(--text-2);
+      font-family: var(--font-poppins);
+    }
+    .illustration {
+      top: 0;
+      left: 726px;
+      width: 879px;
+      height: 600px;
+      text-align: left;
+      font-size: var(--font-size-3xl);
+      color: var(--color-gainsboro-100);
+      font-family: var(--font-roboto);
+    }
+    .get-your-favourite {
+      margin: 0;
+    }
+    .heading1,
+    .subheading {
+      margin: 0;
+      position: absolute;
+      left: 0;
+      font-weight: 700;
+    }
+    .heading1 {
+      top: 42px;
+      font-size: inherit;
+      text-transform: capitalize;
+      font-family: inherit;
+    }
+    .subheading {
+      top: 0;
+      font-size: var(--font-size-lg);
+      font-family: var(--font-poppins);
+      color: var(--color-salmon);
+      text-align: center;
+    }
+    .heading,
+    .value-01-child {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 458px;
+      height: 172px;
+    }
+    .value-01-child {
+      top: 4px;
+      width: 47px;
+      height: 48px;
+      object-fit: cover;
+    }
+    .choose-destination,
+    .lorem-ipsum-dolor-container {
+      margin: 0;
+      position: absolute;
+      left: 68px;
+      line-height: 124.5%;
+    }
+    .choose-destination {
+      top: 0;
+      font-weight: 700;
+    }
+    .lorem-ipsum-dolor-container {
+      top: 24px;
+    }
+    .value-01 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 395px;
+      height: 64px;
+      text-align: left;
+      font-size: var(--font-size-base);
+      color: var(--text-clr);
+      font-family: var(--font-poppins);
+    }
+    .value-03-child {
+      position: absolute;
+      top: 8px;
+      left: 0;
+      width: 47px;
+      height: 48px;
+    }
+    .lorem-ipsum-dolor-container1 {
+      margin: 0;
+      position: absolute;
+      top: 25px;
+      left: 68px;
+      line-height: 124.5%;
+    }
+    .value-03 {
+      position: absolute;
+      top: 220px;
+      left: 0;
+      width: 395px;
+      height: 65px;
+      text-align: left;
+      font-size: var(--font-size-base);
+      color: var(--text-clr);
+      font-family: var(--font-poppins);
+    }
+    .value-02-child {
+      position: absolute;
+      top: 10px;
+      left: 0;
+      width: 47px;
+      height: 48px;
+    }
+    .context,
+    .value-02,
+    .values {
+      position: absolute;
+      left: 0;
+      width: 395px;
+    }
+    .value-02 {
+      top: 106px;
+      height: 64px;
+      text-align: left;
+      font-size: var(--font-size-base);
+      color: var(--text-clr);
+      font-family: var(--font-poppins);
+    }
+    .context,
+    .values {
+      top: 203px;
+      height: 285px;
+    }
+    .context {
+      top: 66px;
+      width: 458px;
+      height: 488px;
+      text-align: left;
+      font-size: var(--font-size-31xl);
+      color: var(--color-darkslateblue-100);
+      font-family: var(--font-volkhov);
+    }
+  }
+
   @media screen and (min-device-width: 481px) and (max-width: 768px){
     .BookingsMainContain{
       width: 100%;

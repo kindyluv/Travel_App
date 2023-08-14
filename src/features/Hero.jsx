@@ -12,6 +12,7 @@ const Hero = () => {
   return (
     <div className={Styles.HeroContainer}>
       <div className={Styles.HeroDiv}>
+        {/* <div></div> */}
         <div className={Styles.Twistcontainer}>
           <img className={Styles.HeroImgOne} src={Twist} alt="Twist" />
           <p className={Styles.HeroPtag}>
