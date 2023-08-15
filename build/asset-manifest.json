@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a074f666.css",
-    "main.js": "/static/js/main.95683880.js",
+    "main.css": "/static/css/main.91e4919d.css",
+    "main.js": "/static/js/main.6bad81f5.js",
     "static/js/787.d06b42a6.chunk.js": "/static/js/787.d06b42a6.chunk.js",
     "static/media/HeroImage.svg": "/static/media/HeroImage.bdc866afe961044b6c11.svg",
     "static/media/TripLogo.svg": "/static/media/TripLogo.f5b5f80a26a56990813fc6fc69f4a20a.svg",
@@ -36,12 +36,12 @@
     "static/media/ServiceDropdown.svg": "/static/media/ServiceDropdown.a4ad91c91e98c2c18be4.svg",
     "static/media/BlackArrowDown.svg": "/static/media/BlackArrowDown.5992b40986a0351d2779ea8fa1746ea3.svg",
     "static/media/ArrowDown.svg": "/static/media/ArrowDown.b5e24daaaf01e0052029ecf5fe1dc502.svg",
-    "main.a074f666.css.map": "/static/css/main.a074f666.css.map",
-    "main.95683880.js.map": "/static/js/main.95683880.js.map",
+    "main.91e4919d.css.map": "/static/css/main.91e4919d.css.map",
+    "main.6bad81f5.js.map": "/static/js/main.6bad81f5.js.map",
     "787.d06b42a6.chunk.js.map": "/static/js/787.d06b42a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a074f666.css",
-    "static/js/main.95683880.js"
+    "static/css/main.91e4919d.css",
+    "static/js/main.6bad81f5.js"
   ]
 }
