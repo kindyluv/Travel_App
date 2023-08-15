@@ -130,7 +130,7 @@ const TopNav = () => {
                 src={scrollBg ? BlackArrowDown : ArrowDown}
                 alt="Upcoming Package img"
               />
-              {showDropdown && (
+              {(!hoverHome && !hoverAbout && !hoverPackage) && showDropdown && (
                 <div
                   className={Styles.dropdownMenu}
                 >
@@ -145,7 +145,7 @@ const TopNav = () => {
             onMouseLeave={() => handleHover("")}
           >
             <li className={`${scrollBg ? Styles.scrollColor : ''}`}>Upcoming Packages</li>
-            {(!hoverHome && !hoverAbout) && <div className={Styles.liBorderU}></div>}
+            {(!hoverHome && !hoverAbout && !hoverService) && <div className={Styles.liBorderU}></div>}
           </div>
         </ul>
         <div className={Styles.TopNavButton}>
@@ -216,9 +216,6 @@ const TopNav = () => {
               </div>
             }
           </div>
-          {/* {isMobile && sidebarVisible && (
-            <div className={Styles.myOverlay} onClick={handleIsMobile}></div>
-          )} */}
         </div>
       </div>
     </>

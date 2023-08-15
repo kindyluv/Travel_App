@@ -21,6 +21,7 @@
     font-weight: 700;
     width: 100%;
     font-size: 14px;
+    color: #181E4B;
   }
   .FlightCardbody{
     font-size: 11px;
@@ -60,6 +61,7 @@
   
   .FlightCardtopic {
     font-weight: 700;
+    color: #181E4B;
   }
   .FlightCardbody{
     font-size: 13px;
@@ -97,6 +99,7 @@
   
   .FlightCardtopic {
     font-weight: 700;
+    color: #181E4B;
   }
   
   .boxShadow {
@@ -131,6 +134,7 @@
   }
   .FlightCardtopic {
     font-weight: 700;
+    color: #181E4B;
   }
   .boxShadow {
     box-shadow: 5px 5px 5px rgba(75, 75, 75, 0.1);
@@ -162,6 +166,7 @@
   }
   .FlightCardtopic {
     font-weight: 700;
+    color: #181E4B;
     font-size: 20px;
   }
   .FlightCardbody{
@@ -199,6 +204,7 @@
   .FlightCardtopic {
     font-weight: 700;
     font-size: 28px;
+    color: #181E4B;
   }
   .FlightCardbody{
     font-size: 20px;
@@ -234,6 +240,7 @@
   }
   .FlightCardtopic {
     font-weight: 700;
+    color: #181E4B;
     font-size: 30px;
   }
   .FlightCardbody{
@@ -270,6 +277,7 @@
   }
   .FlightCardtopic {
     font-weight: 700;
+    color: #181E4B;
     font-size: 35px;
   }
   .FlightCardbody{
@@ -308,6 +316,7 @@
   .FlightCardtopic {
     font-weight: 700;
     font-size: 40px;
+    color: #181E4B;
   }
   .FlightCardbody{
     font-size: 23px;
